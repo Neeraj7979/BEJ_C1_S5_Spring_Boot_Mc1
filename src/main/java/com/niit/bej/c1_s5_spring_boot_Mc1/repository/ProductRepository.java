@@ -1,4 +1,4 @@
-package com.niit.bej.c1_s5_spring_boot_Mc1;
+package com.niit.bej.c1_s5_spring_boot_Mc1.repository;
 
 import com.niit.bej.c1_s5_spring_boot_Mc1.domain.Product;
 import org.springframework.data.repository.CrudRepository;
