@@ -57,4 +57,9 @@ public class Product {
     public int hashCode() {
         return Objects.hash(productId, productName, manufacturer);
     }
+
+    @Override
+    public String toString() {
+        return "Product{" + "productId=" + productId + ", productName='" + productName + '\'' + ", manufacturer='" + manufacturer + '\'' + '}';
+    }
 }
