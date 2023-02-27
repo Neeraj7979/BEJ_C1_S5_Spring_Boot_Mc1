@@ -9,4 +9,10 @@ public class Product {
     private int productId;
     private String productName;
     private String manufacturer;
+
+    public Product(int productId, String productName, String manufacturer) {
+        this.productId = productId;
+        this.productName = productName;
+        this.manufacturer = manufacturer;
+    }
 }
